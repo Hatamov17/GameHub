@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Orbitron:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css ">
+    <title>GameHub - Мир игр для всех платформ</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <div
+            style="
+              width: 50px;
+              height: 50px;
+              background: linear-gradient(
+                135deg,
+                var(--primary),
+                var(--accent)
+              );
+              border-radius: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <i class="fas fa-gamepad" style="font-size: 24px; color: white"></i>
+          </div>
+          <h1>GameHub</h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#"><i class="fas fa-home"></i> Главная</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-gamepad"></i> Игры</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-download"></i> Скачать</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-headset"></i> Поддержка</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Поиск игр..." />
+          <button><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="user-actions">
+          <button class="btn btn-login">Войти</button>
+          <button class="btn btn-register">Регистрация</button>
+        </div>
+
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h2>Откройте мир <span>невероятных игр</span> на GameHub</h2>
+          <p>
+            Тысячи игр для всех платформ: PC, PlayStation, Xbox и мобильные
+            устройства. Скачивайте бесплатно или покупайте по лучшим ценам.
+            Присоединяйтесь к нашему игровому сообществу!
+          </p>
+          <button class="btn btn-download">
+            <i class="fas fa-download"></i> Скачать игры
+          </button>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+            alt="Игровая вселенная"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container">
+      <h2 class="section-title">Категории игр</h2>
+      <div class="categories">
+        <div class="category-card">
+          <i class="fas fa-running"></i>
+          <h3>Экшен</h3>
+          <p>Адреналин, стрельба и динамичный геймплей</p>
+        </div>
+        <div class="category-card">
+          <i class="fas fa-hat-wizard"></i>
+          <h3>РПГ</h3>
+          <p>Погружение в фэнтезийные миры и прокачка персонажа</p>
+        </div>
+        <div class="category-card">
+          <i class="fas fa-ghost"></i>
+          <h3>Хоррор</h3>
+          <p>Страх, напряжение и неожиданные повороты</p>
+        </div>
+        <div class="category-card">
+          <i class="fas fa-car"></i>
+          <h3>Гонки</h3>
+          <p>Скорость, драйв и реалистичные трассы</p>
+        </div>
+        <div class="category-card">
+          <i class="fas fa-puzzle-piece"></i>
+          <h3>Головоломки</h3>
+          <p>Логика, стратегия и интересные задачи</p>
+        </div>
+        <div class="category-card">
+          <i class="fas fa-baseball-ball"></i>
+          <h3>Спорт</h3>
+          <p>Реалистичные симуляторы и спортивные состязания</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Games Section -->
+    <section class="container">
+      <h2 class="section-title">Популярные игры</h2>
+      <div class="games-grid">
+        <div class="game-card">
+          <div class="game-image">
+            <img
+              src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Cyber Nexus"
+            />
+            <div class="game-badge">NEW</div>
+          </div>
+          <div class="game-content">
+            <div class="game-title">
+              <h3>Cyber Nexus</h3>
+              <div class="game-rating"><i class="fas fa-star"></i> 4.8</div>
+            </div>
+            <div class="game-meta">
+              <span><i class="fas fa-desktop"></i> PC, PS5</span>
+              <span><i class="fas fa-download"></i> 24GB</span>
+            </div>
+            <p class="game-desc">
+              Погрузитесь в киберпанк-будущее, где технологии и человечность
+              сталкиваются...
+            </p>
+            <div class="game-actions">
+              <button class="btn btn-details">Подробнее</button>
+              <button class="btn btn-download-sm">Скачать</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-image">
+            <img
+              src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+              alt="Mystic Quest"
+            />
+            <div class="game-badge">FREE</div>
+          </div>
+          <div class="game-content">
+            <div class="game-title">
+              <h3>Mystic Quest</h3>
+              <div class="game-rating"><i class="fas fa-star"></i> 4.7</div>
+            </div>
+            <div class="game-meta">
+              <span><i class="fas fa-desktop"></i> PC, Mobile</span>
+              <span><i class="fas fa-download"></i> 4.5GB</span>
+            </div>
+            <p class="game-desc">
+              Захватывающее RPG-приключение с глубоким сюжетом и потрясающим
+              миром...
+            </p>
+            <div class="game-actions">
+              <button class="btn btn-details">Подробнее</button>
+              <button class="btn btn-download-sm">Скачать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container">
+      <h2 class="section-title">Почему выбирают нас</h2>
+      <div class="features">
+        <div class="feature-card">
+          <i class="fas fa-download"></i>
+          <h3>Быстрая загрузка</h3>
+          <p>
+            Максимальная скорость скачивания игр благодаря оптимизированным
+            серверам по всему миру
+          </p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Безопасность</h3>
+          <p>
+            Все файлы проверяются на вирусы. Гарантия 100% безопасности для
+            вашего устройства
+          </p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-tags"></i>
+          <h3>Лучшие цены</h3>
+          <p>
+            Скидки до 90% на игры и эксклюзивные предложения для наших
+            пользователей
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>GameHub</h3>
+            <p>
+              Крупнейшая платформа для поиска и скачивания игр на все популярные
+              платформы. Присоединяйтесь к нашему сообществу!
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-vk"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Категории</h3>
+            <ul>
+              <li><a href="#">Экшен</a></li>
+              <li><a href="#">Ролевые игры (RPG)</a></li>
+              <li><a href="#">Стратегии</a></li>
+              <li><a href="#">Гонки</a></li>
+              <li><a href="#">Спортивные</a></li>
+              <li><a href="#">Хоррор</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Платформы</h3>
+            <ul>
+              <li><a href="#">PC игры</a></li>
+              <li><a href="#">PlayStation</a></li>
+              <li><a href="#">Xbox</a></li>
+              <li><a href="#">Nintendo Switch</a></li>
+              <li><a href="#">Мобильные игры</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Поддержка</h3>
+            <ul>
+              <li><a href="#">Помощь</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+              <li><a href="#">Условия использования</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          &copy; 2023 GameHub. Все права защищены. Все названия игр и связанные
+          с ними изображения являются товарными знаками соответствующих
+          владельцев.
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
